@@ -21,7 +21,8 @@ func main() {
     numbers = append(numbers, 40)
 
     // Display the slice after appending more than its initial capacity
-    fmt.Printf("After appending beyond capacity: %v, Length: %d, Capacity: %d\n", numbers, len(numbers), cap(numbers))
+    fmt.Printf("After appending beyond capacity: %v, Length: %d, Capacity: %d\n", numbers, len(numbers), cap(numbers)) 
+	// %v format specifier is a versatile placeholder used with the fmt package to print values of any type in their default format. 
 }
 // Initial slice: [], Length: 0, Capacity: 3
 // After appending: [10 20 30], Length: 3, Capacity: 3
