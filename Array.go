@@ -16,6 +16,6 @@ func main(){
 	fmt.Println(arr2) // output [2,4,5,0]
 
 	//using the period operator for size.
-	arr3 := [...]int{2,34,5,6,62,2,4} //size is assigned wrt to number of array elements.
+	arr3 := [...]int{2,34,5,6,62,2,4} //size is assigned wrt to number of array elements. Here ... is a keyword
 	fmt.Println(arr3)
 }
